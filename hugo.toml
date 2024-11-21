@@ -2,3 +2,24 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "stack"
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/_index.md/"
+    weight = 1
+
+  [[menu.main]]
+    name = "markdown"
+    url = "/markdown.md/"
+    weight = 2
+
+  [[menu.main]]
+    name = "python"
+    url = "/python.md/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
