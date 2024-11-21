@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>Bienvenido a mi sitio on My New Hugo Site by Pablo</title>
         <link>http://localhost:1313/</link>
-        <description>Recent content on My New Hugo Site</description>
+        <description>Recent content in Bienvenido a mi sitio on My New Hugo Site by Pablo</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title></title>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 04 Oct 2024 14:01:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown</title>
         <link>http://localhost:1313/markdown/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 04 Oct 2024 14:01:01 +0200</pubDate>
         
         <guid>http://localhost:1313/markdown/</guid>
-        <description>&lt;h2 id=&#34;markdown-básico&#34;&gt;Markdown Básico
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Negritas&lt;/strong&gt;: &lt;code&gt;**texto**&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Itálicas&lt;/em&gt;: &lt;code&gt;*texto*&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://example.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Enlaces&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;markdown-avanzado&#34;&gt;Markdown Avanzado
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tablas:
-Columna 1	Columna 2
-Dato 1	Dato 2
-bash
-Copiar código&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Código:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hola, mundo&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <description>&lt;p&gt;Edición Básica
+Titulos
+Para establecer los titulos usare la siguiente sintaxis
+#titulo1
+##titulo2
+###titulo3
+####titulo4&lt;/p&gt;
+&lt;p&gt;y se verá&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;titulo1
+titulo2
+titulo3&lt;/p&gt;
+&lt;h4 id=&#34;titulo4&#34;&gt;titulo4
+&lt;/h4&gt;&lt;hr&gt;
+&lt;p&gt;negrita y formato
+Para ver el texto en negrita escribo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;texto en negrita&lt;/strong&gt;texto normal&lt;/p&gt;
+&lt;p&gt;y se verá&lt;/p&gt;
+&lt;p&gt;Texto en negritatexto normal&lt;/p&gt;
+</description>
         </item>
         <item>
         <title></title>

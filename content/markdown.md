@@ -1,15 +1,32 @@
-## Markdown Básico
-- **Negritas**: `**texto**`
-- *Itálicas*: `*texto*`
-- [Enlaces](https://example.com)
++++
+title = 'Markdown'
+date = 2024-10-04T14:01:01+02:00
+draft = false
+weight = 20
++++
 
-## Markdown Avanzado
-- Tablas:
-Columna 1	Columna 2
-Dato 1	Dato 2
-bash
-Copiar código
+Edición Básica
+Titulos
+Para establecer los titulos usare la siguiente sintaxis
+#titulo1
+##titulo2
+###titulo3
+####titulo4
 
-- Código:
-```python
-print("Hola, mundo")
+y se verá
+
+---
+titulo1
+titulo2
+titulo3
+#### titulo4
+---
+
+negrita y formato
+Para ver el texto en negrita escribo
+
+**texto en negrita**texto normal
+
+y se verá
+
+Texto en negritatexto normal

@@ -1,12 +1,15 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My New Hugo Site by Pablo'
 theme = "stack"
+
+[params]
+  logo = "images/logo.jpg" 
 
 [menu]
   [[menu.main]]
     name = "Inicio"
-    url = "/"
+    url = "/_index"
     weight = 1
 
   [[menu.main]]
