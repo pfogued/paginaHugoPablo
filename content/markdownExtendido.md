@@ -13,10 +13,8 @@
 ## Códigos en Línea:
 `python`
 
-## Bloques de Código:
-```python
-def saludo():
-    print("¡Hola Mundo!")
+
+   
 
 ## Enlaces:
 [Texto del enlace](https://www.ejemplo.com)
@@ -35,3 +33,8 @@ Citas:
 - [ ] Tarea 1
 - [x] Tarea 2 (completada)
 
+## Bloques de Código:
+```python
+def saludo():
+    print("¡Hola Mundo!")
+    
