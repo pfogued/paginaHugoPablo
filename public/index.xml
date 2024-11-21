@@ -5,32 +5,72 @@
         <link>http://localhost:1313/</link>
         <description>Recent content in Bienvenido a mi sitio on My New Hugo Site by Pablo</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 04 Oct 2024 14:01:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Markdown</title>
+        <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title></title>
         <link>http://localhost:1313/markdown/</link>
-        <pubDate>Fri, 04 Oct 2024 14:01:01 +0200</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/markdown/</guid>
-        <description>&lt;p&gt;Edición Básica
-Titulos
-Para establecer los titulos usare la siguiente sintaxis
-#titulo1
-##titulo2
-###titulo3
-####titulo4&lt;/p&gt;
-&lt;p&gt;y se verá&lt;/p&gt;
+        <description>&lt;h2 id=&#34;edición-básica&#34;&gt;Edición Básica
+&lt;/h2&gt;&lt;h3 id=&#34;titulos&#34;&gt;Titulos
+&lt;/h3&gt;&lt;p&gt;Para establecer los titulos usare la siguiente sintaxis&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#titulo1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##titulo2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###titulo3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;####titulo4
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y se verá&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;titulo1
-titulo2
-titulo3&lt;/p&gt;
-&lt;h4 id=&#34;titulo4&#34;&gt;titulo4
+&lt;h1 id=&#34;titulo1&#34;&gt;titulo1
+&lt;/h1&gt;&lt;h2 id=&#34;titulo2&#34;&gt;titulo2
+&lt;/h2&gt;&lt;h3 id=&#34;titulo3&#34;&gt;titulo3
+&lt;/h3&gt;&lt;h4 id=&#34;titulo4&#34;&gt;titulo4
 &lt;/h4&gt;&lt;hr&gt;
-&lt;p&gt;negrita y formato
-Para ver el texto en negrita escribo&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;texto en negrita&lt;/strong&gt;texto normal&lt;/p&gt;
-&lt;p&gt;y se verá&lt;/p&gt;
-&lt;p&gt;Texto en negritatexto normal&lt;/p&gt;
+&lt;h1 id=&#34;negrita-y-formato&#34;&gt;negrita y formato
+&lt;/h1&gt;&lt;h1 id=&#34;para-ver-el-texto-en-negrita-escribo&#34;&gt;Para ver el texto en negrita escribo
+&lt;/h1&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**texto en negrita** texto normal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y se verá&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Texto en negrita&lt;/strong&gt; texto normal&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>http://localhost:1313/markdowngrafico/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/markdowngrafico/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ruta-de-la-imagen.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Texto alternativo&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/images/logo.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Logo del sitio&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/images/graph.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Gráfico SVG&#34;
+	
+	
+&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
         </item>
         <item>
