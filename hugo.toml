@@ -27,6 +27,11 @@ theme = "stack"
     url = "/markdownExtendido/"
     weight = 2
 
+     [[menu.main]]
+    name = "Imagenes del pueblo"
+    url = "/imagenes/"
+    weight = 2
+
   [[menu.main]]
     name = "Python"
     url = "/python/"

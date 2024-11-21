@@ -5,7 +5,19 @@
         <link>http://localhost:1313/</link>
         <description>Recent content in Bienvenido a mi sitio on My New Hugo Site by Pablo</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Galería de Imágenes</title>
+        <link>http://localhost:1313/imagenes/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/imagenes/</guid>
+        <description>&lt;h1 id=&#34;imágenes-de-mi-pueblo&#34;&gt;Imágenes de Mi Pueblo
+&lt;/h1&gt;&lt;p&gt;Aquí hay algunas fotos de mi pueblo. ¡Espero que las disfruten!&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
         <title></title>
         <link>http://localhost:1313/markdown/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
