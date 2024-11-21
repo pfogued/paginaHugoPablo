@@ -18,11 +18,13 @@ theme = "stack"
     weight = 2
 
   [[menu.main]]
+    name = "Markdown Gráfico"
+    url = "/markdownGrafico/"
+    weight = 2
+
+  [[menu.main]]
     name = "Python"
     url = "/python/"
     weight = 3
 
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+ 
