@@ -34,6 +34,53 @@
         </item>
         <item>
         <title></title>
+        <link>http://localhost:1313/markdownextendido/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/markdownextendido/</guid>
+        <description>&lt;h2 id=&#34;listas-desordenadas&#34;&gt;Listas desordenadas
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Elemento 1&lt;/li&gt;
+&lt;li&gt;Elemento 2
+&lt;ul&gt;
+&lt;li&gt;Sub-elemento 2.1&lt;/li&gt;
+&lt;li&gt;Sub-elemento 2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;listas-ordenadas&#34;&gt;Listas Ordenadas:
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Primer paso&lt;/li&gt;
+&lt;li&gt;Segundo paso&lt;/li&gt;
+&lt;li&gt;Tercer paso&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;códigos-en-línea&#34;&gt;Códigos en Línea:
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;python&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bloques-de-código&#34;&gt;Bloques de Código:
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saludo&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;¡Hola Mundo!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Enlaces:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Texto &lt;span style=&#34;color:#66d9ef&#34;&gt;del&lt;/span&gt; enlace](https:&lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt;www&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ejemplo&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;com)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Citas:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; Esto es una cita&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Tablas:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Columna &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Columna &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Columna &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|-----------|-----------|-----------|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; Fila &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Tareas y Casillas de Verificación:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; [ ] Tarea &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; [x] Tarea &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; (completada)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title></title>
         <link>http://localhost:1313/markdowngrafico/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         

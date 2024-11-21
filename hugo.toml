@@ -22,6 +22,11 @@ theme = "stack"
     url = "/markdownGrafico/"
     weight = 2
 
+     [[menu.main]]
+    name = "Markdown Extendido"
+    url = "/markdownExtendido/"
+    weight = 2
+
   [[menu.main]]
     name = "Python"
     url = "/python/"
