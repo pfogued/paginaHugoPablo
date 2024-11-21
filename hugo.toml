@@ -6,17 +6,17 @@ theme = "stack"
 [menu]
   [[menu.main]]
     name = "Inicio"
-    url = "/_index.md/"
+    url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "markdown"
-    url = "/markdown.md/"
+    name = "Markdown"
+    url = "/markdown/"
     weight = 2
 
   [[menu.main]]
-    name = "python"
-    url = "/python.md/"
+    name = "Python"
+    url = "/python/"
     weight = 3
 
   [[menu.main]]
