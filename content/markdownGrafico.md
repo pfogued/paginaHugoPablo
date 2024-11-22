@@ -1,5 +1,5 @@
 ![Texto alternativo](ruta-de-la-imagen.jpg)
-![Logo del sitio](images/logo.jpg)
+![Logo del sitio](images/logoEjemplo.jpg)
 ![Gráfico SVG](images/graph.svg)
 <canvas id="myChart" width="400" height="400"></canvas>
 

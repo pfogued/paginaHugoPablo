@@ -1,0 +1,24 @@
+
+{{.Content}}
+
+<ul>
+  {{ range  .Site.Data.tv }}
+  <table>
+    <caption> <h1> {{ .name }}</h1> </caption>
+    <tr>
+        {{$cont := 1}}
+        {{ range .channels }}
+      <td>
+          <a href="{{ .web}}" >
+            <img src="{{.logo}}" alt="{{ .name }}">
+          </a>
+      </td>
+      {{$cont = add $cont 1 }}
+      {{ if eq (mod $cont 4) 0}}
+      <tr></tr>
+      {{ end }}
+    {{ end }}
+    </tr>
+  </table>
+  {{ end }}
+</ul>

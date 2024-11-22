@@ -32,6 +32,11 @@ theme = "stack"
     url = "/imagenes/"
     weight = 2
 
+[[menu.main]]
+    name = "Canales de tv"
+    url = "/canales/"
+    weight = 2
+
   [[menu.main]]
     name = "Python"
     url = "/python/"
