@@ -12,18 +12,18 @@
 </script>
 
 <meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="graph TD\rA[Inicio] --&gt; B[Decisión]\rB --&gt;|Sí| C[Acción 1]\rB --&gt;|No| D[Acción 2]\rC --&gt; E[Fin]\rD --&gt; E[Fin]\r">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/markdowngrafico/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="">
-<meta property='og:description' content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
+<meta property='og:description' content="graph TD\rA[Inicio] --&gt; B[Decisión]\rB --&gt;|Sí| C[Acción 1]\rB --&gt;|No| D[Acción 2]\rC --&gt; E[Fin]\rD --&gt; E[Fin]\r">
 <meta property='og:url' content='http://localhost:1313/markdowngrafico/'>
 <meta property='og:site_name' content='My New Hugo Site by Pablo'>
 <meta property='og:type' content='article'><meta property='article:section' content='' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
+<meta name="twitter:description" content="graph TD\rA[Inicio] --&gt; B[Decisión]\rB --&gt;|Sí| C[Acción 1]\rB --&gt;|No| D[Acción 2]\rC --&gt; E[Fin]\rD --&gt; E[Fin]\r">
     </head>
     <body class="
     article-page
@@ -233,18 +233,13 @@
     <section class="article-content">
     
     
-    <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice-&gt;&gt;John: Hello John, how are you?
-    loop Healthcheck
-        John-&gt;&gt;John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts &lt;br/&gt;prevail!
-    John--&gt;&gt;Alice: Great!
-    John-&gt;&gt;Bob: How about you?
-    Bob--&gt;&gt;John: Jolly good!
-</code></pre>
+    <pre class="mermaid">graph TD
+    A[Inicio] --&gt; B[Decisión]
+    B --&gt;|Sí| C[Acción 1]
+    B --&gt;|No| D[Acción 2]
+    C --&gt; E[Fin]
+    D --&gt; E[Fin]
+  </pre>
 </section>
 
 
