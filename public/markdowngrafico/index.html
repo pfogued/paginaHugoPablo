@@ -6,19 +6,24 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 <meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/markdowngrafico/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="">
-<meta property='og:description' content=" ">
+<meta property='og:description' content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
 <meta property='og:url' content='http://localhost:1313/markdowngrafico/'>
 <meta property='og:site_name' content='My New Hugo Site by Pablo'>
 <meta property='og:type' content='article'><meta property='article:section' content='' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content=" ">
+<meta name="twitter:description" content="sequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-&gt;&gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-&gt;&gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts &lt;br/&gt;prevail!\rJohn--&gt;&gt;Alice: Great!\rJohn-&gt;&gt;Bob: How about you?\rBob--&gt;&gt;John: Jolly good! ">
     </head>
     <body class="
     article-page
@@ -213,7 +218,7 @@
 
 
                 <time class="article-time--reading">
-                    0 minute read
+                    1 minute read
                 </time>
             </div>
         
@@ -228,40 +233,18 @@
     <section class="article-content">
     
     
-    <p><img src="/ruta-de-la-imagen.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Texto alternativo"
-	
-	
->
-<img src="/images/logoEjemplo.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Logo del sitio"
-	
-	
->
-<img src="/images/graph.svg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Gráfico SVG"
-	
-	
->
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-
+    <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &lt;br/&gt;prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre>
 </section>
 
 
