@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Python: Un Lenguaje de Programación Versátil\rPython es un lenguaje de programación interpretado, de alto nivel y de propósito general. Su diseño enfatiza la legibilidad del código y permite a los desarrolladores expresar conceptos en menos líneas de código que otros lenguajes.\nCaracterísticas Clave de Python\rSintaxis Sencilla: Ideal para principiantes y desarrolladores experimentados. Gran Comunidad: Amplio soporte a través de foros, bibliotecas y documentación. Bibliotecas Extensas: Herramientas para ciencia de datos, desarrollo web, aprendizaje automático, etc. Multiplataforma: Compatible con Windows, macOS y Linux. ¿Para Qué se Usa Python?\rPython se aplica en diversos campos:\n">
+<title></title>
+
+<link rel='canonical' href='https://example.org/python/'>
+
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="">
+<meta property='og:description' content="Python: Un Lenguaje de Programación Versátil\rPython es un lenguaje de programación interpretado, de alto nivel y de propósito general. Su diseño enfatiza la legibilidad del código y permite a los desarrolladores expresar conceptos en menos líneas de código que otros lenguajes.\nCaracterísticas Clave de Python\rSintaxis Sencilla: Ideal para principiantes y desarrolladores experimentados. Gran Comunidad: Amplio soporte a través de foros, bibliotecas y documentación. Bibliotecas Extensas: Herramientas para ciencia de datos, desarrollo web, aprendizaje automático, etc. Multiplataforma: Compatible con Windows, macOS y Linux. ¿Para Qué se Usa Python?\rPython se aplica en diversos campos:\n">
+<meta property='og:url' content='https://example.org/python/'>
+<meta property='og:site_name' content='My New Hugo Site by Pablo'>
+<meta property='og:type' content='article'><meta property='article:section' content='' />
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="Python: Un Lenguaje de Programación Versátil\rPython es un lenguaje de programación interpretado, de alto nivel y de propósito general. Su diseño enfatiza la legibilidad del código y permite a los desarrolladores expresar conceptos en menos líneas de código que otros lenguajes.\nCaracterísticas Clave de Python\rSintaxis Sencilla: Ideal para principiantes y desarrolladores experimentados. Gran Comunidad: Amplio soporte a través de foros, bibliotecas y documentación. Bibliotecas Extensas: Herramientas para ciencia de datos, desarrollo web, aprendizaje automático, etc. Multiplataforma: Compatible con Windows, macOS y Linux. ¿Para Qué se Usa Python?\rPython se aplica en diversos campos:\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu13739649187745961479.png" width="3483"
+                            height="5224" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">My New Hugo Site by Pablo</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                <span>Inicio</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/canales/' >
+                
+                
+                
+                <span>Canales de tv</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/imagenes/' >
+                
+                
+                
+                <span>Imagenes del pueblo</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/markdown/' >
+                
+                
+                
+                <span>Markdown</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/markdownextendido/' >
+                
+                
+                
+                <span>Markdown Extendido</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/markdowngrafico/' >
+                
+                
+                
+                <span>Markdown Gráfico</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/python/' >
+                
+                
+                
+                <span>Python</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/python/"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="python-un-lenguaje-de-programación-versátil">Python: Un Lenguaje de Programación Versátil
+</h1><p>Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Su diseño enfatiza la legibilidad del código y permite a los desarrolladores expresar conceptos en menos líneas de código que otros lenguajes.</p>
+<h2 id="características-clave-de-python">Características Clave de Python
+</h2><ul>
+<li><strong>Sintaxis Sencilla</strong>: Ideal para principiantes y desarrolladores experimentados.</li>
+<li><strong>Gran Comunidad</strong>: Amplio soporte a través de foros, bibliotecas y documentación.</li>
+<li><strong>Bibliotecas Extensas</strong>: Herramientas para ciencia de datos, desarrollo web, aprendizaje automático, etc.</li>
+<li><strong>Multiplataforma</strong>: Compatible con Windows, macOS y Linux.</li>
+</ul>
+<h2 id="para-qué-se-usa-python">¿Para Qué se Usa Python?
+</h2><p>Python se aplica en diversos campos:</p>
+<ol>
+<li><strong>Desarrollo Web</strong>: Frameworks como Django y Flask.</li>
+<li><strong>Análisis de Datos</strong>: Herramientas como Pandas y NumPy.</li>
+<li><strong>Inteligencia Artificial y Machine Learning</strong>: Bibliotecas como TensorFlow y scikit-learn.</li>
+<li><strong>Automatización</strong>: Scripts para tareas repetitivas.</li>
+<li><strong>Desarrollo de Juegos</strong>: Motores como Pygame.</li>
+</ol>
+<h2 id="ventajas-de-python">Ventajas de Python
+</h2><ul>
+<li><strong>Aprendizaje Rápido</strong>: Ideal para principiantes debido a su simplicidad.</li>
+<li><strong>Código Limpio</strong>: Promueve buenas prácticas de programación.</li>
+<li><strong>Ecosistema Rico</strong>: Miles de bibliotecas para casi cualquier necesidad.</li>
+</ul>
+<h2 id="ejemplo-de-código-en-python">Ejemplo de Código en Python
+</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Hola Mundo en Python</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;¡Hola, Mundo!&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Ejemplo de suma</strong>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">suma</span>(a, b):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
+</span></span></code></pre></div></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 My New Hugo Site by Pablo
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
