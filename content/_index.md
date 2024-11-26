@@ -52,3 +52,8 @@ Estoy siempre abierto a colaborar, aprender y compartir ideas. Aquí tienes mis 
 ---
 
 ¡Gracias por visitar mi página! Si tienes alguna sugerencia o simplemente quieres saludar, no dudes en contactarme. 😊
+<style>
+  body {
+    color: white;
+  }
+</style>
