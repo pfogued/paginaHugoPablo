@@ -37,3 +37,4 @@ print("¡Hola, Mundo!")
   def suma(a, b):
       return a + b
   ```
+{{< cambiarColor>}}Esta palabra usa una clase del tema{{< /cambiarColor >}}
